@@ -1,5 +1,9 @@
 <script>
 
+import { ref } from 'vue';
+
+const name = ref("teste");
+
 </script>
 
 
@@ -8,7 +12,7 @@
   <img src="../assets/img/pokemon.png" class="card-img-top" alt="...">
   <div class="card-body">
 
-    <h5 class=" card-text text-center">The Pokemons</h5>
+    <h5 class=" card-text text-center">{{ teste }}</h5>
     <hr>
     <div class="row">
     <section class="col">
